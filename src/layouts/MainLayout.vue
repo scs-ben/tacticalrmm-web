@@ -32,7 +32,7 @@
           <q-tooltip>Back to Dashboard</q-tooltip>
         </q-btn>
         <q-toolbar-title>
-          Tactical RMM<span class="text-overline q-ml-sm"
+          SCS RMM<span class="text-overline q-ml-sm"
             >v{{ currentTRMMVersion }}</span
           >
           <span
@@ -174,7 +174,7 @@ export default {
 
     const latestReleaseURL = computed(() => {
       return latestTRMMVersion.value
-        ? `https://github.com/amidaware/tacticalrmm/releases/tag/v${latestTRMMVersion.value}`
+        ? `https://github.com/scs-ben/tacticalrmm/releases/tag/v${latestTRMMVersion.value}`
         : "";
     });
 
