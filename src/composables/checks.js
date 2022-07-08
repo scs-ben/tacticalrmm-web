@@ -1252,7 +1252,7 @@ export const defaultServiceOptions = [
     label: "salt-minion",
   },
   {
-    value: "scsagent",
+    value: "tacticalagent",
     label: "SCS RMM Agent",
   },
 ].sort((a, b) => a.label.localeCompare(b.label));
