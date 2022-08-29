@@ -1253,6 +1253,6 @@ export const defaultServiceOptions = [
   },
   {
     value: "tacticalagent",
-    label: "SCS RMM Agent",
+    label: "Tactical RMM Agent",
   },
 ].sort((a, b) => a.label.localeCompare(b.label));
